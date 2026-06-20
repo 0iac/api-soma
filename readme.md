@@ -6,10 +6,10 @@
 
 ## O projeto foi evoluído em 4 etapas (horários):
 
- -Horário 1: Servidor Flask com rota inicial "GET /api/soma" recebendo parâmetros via URL (query string) e retornando o resultado em formato JSON.
- -Horário 2: Script cliente em Python (cliente.py) utilizando a biblioteca "requests" para consumir a rota GET de forma automatizada.
- -Horário 3: Rota "POST /api/soma" que aceita dados estruturados no corpo da requisição (JSON) e faz a leitura de metadados customizados no cabeçalho (X-Cliente).
- -Horário 4: Rota protegida ("GET /api/protegido") com validação de controle de acesso usando "Bearer Token" no cabeçalho "Authorization", tratando cenários de sucesso (200 OK) e erro (401 Unauthorized).
+ - Horário 1: Servidor Flask com rota inicial "GET /api/soma" recebendo parâmetros via URL (query string) e retornando o resultado em formato JSON.
+ - Horário 2: Script cliente em Python (cliente.py) utilizando a biblioteca "requests" para consumir a rota GET de forma automatizada.
+ - Horário 3: Rota "POST /api/soma" que aceita dados estruturados no corpo da requisição (JSON) e faz a leitura de metadados customizados no cabeçalho (X-Cliente).
+ - Horário 4: Rota protegida ("GET /api/protegido") com validação de controle de acesso usando "Bearer Token" no cabeçalho "Authorization", tratando cenários de sucesso (200 OK) e erro (401 Unauthorized).
 
 ## Como executar
 
